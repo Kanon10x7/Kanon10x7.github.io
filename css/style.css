@@ -1321,54 +1321,55 @@ article .content .caption {
   color: #383838;
 }
 .highlight {
-  color: #839496;
-  background: #002b36;
+  color: #dccf8f;
+  background: url("./pojoaque.jpg") repeat scroll left top #181914;
 }
 .highlight .code .comment,
 .highlight .code .quote {
   color: #586e75;
+  font-style: italic;
 }
 .highlight .code .keyword,
 .highlight .code .selector-tag,
+.highlight .code .literal,
 .highlight .code .addition {
-  color: #859900;
+  color: #b64926;
 }
 .highlight .code .number,
 .highlight .code .string,
-.highlight .code .meta .meta-string,
-.highlight .code .literal,
 .highlight .code .doctag,
 .highlight .code .regexp {
-  color: #2aa198;
+  color: #468966;
 }
 .highlight .code .title,
 .highlight .code .section,
-.highlight .code .name,
-.highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #268bd2;
+.highlight .code .built_in,
+.highlight .code .name {
+  color: #ffb03b;
 }
-.highlight .code .attribute,
-.highlight .code .attr,
 .highlight .code .variable,
 .highlight .code .template-variable,
 .highlight .code .class .title,
-.highlight .code .type {
+.highlight .code .type,
+.highlight .code .tag {
   color: #b58900;
+}
+.highlight .code .attribute {
+  color: #b89859;
 }
 .highlight .code .symbol,
 .highlight .code .bullet,
+.highlight .code .link,
 .highlight .code .subst,
-.highlight .code .meta,
-.highlight .code .meta .keyword,
-.highlight .code .selector-attr,
-.highlight .code .selector-pseudo,
-.highlight .code .link {
+.highlight .code .meta {
   color: #cb4b16;
 }
-.highlight .code .built_in,
 .highlight .code .deletion {
   color: #dc322f;
+}
+.highlight .code .selector-id,
+.highlight .code .selector-class {
+  color: #d3a60c;
 }
 .highlight .code .formula {
   background: #073642;
