@@ -1320,73 +1320,64 @@ article .content .caption {
   padding-bottom: 0.5em;
   color: #383838;
 }
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  background: #fff;
+.highlight {
+  color: #839496;
+  background: #002b36;
 }
-.hljs,
-.hljs-subst {
-  color: #434f54;
+.highlight .code .comment,
+.highlight .code .quote {
+  color: #586e75;
 }
-.hljs-keyword,
-.hljs-attribute,
-.hljs-selector-tag,
-.hljs-doctag,
-.hljs-name {
-  color: #00979d;
+.highlight .code .keyword,
+.highlight .code .selector-tag,
+.highlight .code .addition {
+  color: #859900;
 }
-.hljs-built_in,
-.hljs-literal,
-.hljs-bullet,
-.hljs-code,
-.hljs-addition {
-  color: #d35400;
+.highlight .code .number,
+.highlight .code .string,
+.highlight .code .meta .meta-string,
+.highlight .code .literal,
+.highlight .code .doctag,
+.highlight .code .regexp {
+  color: #2aa198;
 }
-.hljs-regexp,
-.hljs-symbol,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-link,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #00979d;
+.highlight .code .title,
+.highlight .code .section,
+.highlight .code .name,
+.highlight .code .selector-id,
+.highlight .code .selector-class {
+  color: #268bd2;
 }
-.hljs-type,
-.hljs-string,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-quote,
-.hljs-template-tag,
-.hljs-deletion {
-  color: #005c5f;
+.highlight .code .attribute,
+.highlight .code .attr,
+.highlight .code .variable,
+.highlight .code .template-variable,
+.highlight .code .class .title,
+.highlight .code .type {
+  color: #b58900;
 }
-.hljs-title,
-.hljs-section {
-  color: #800;
-  font-weight: bold;
+.highlight .code .symbol,
+.highlight .code .bullet,
+.highlight .code .subst,
+.highlight .code .meta,
+.highlight .code .meta .keyword,
+.highlight .code .selector-attr,
+.highlight .code .selector-pseudo,
+.highlight .code .link {
+  color: #cb4b16;
 }
-.hljs-comment {
-  color: rgba(149,165,166,0.8);
+.highlight .code .built_in,
+.highlight .code .deletion {
+  color: #dc322f;
 }
-.hljs-meta-keyword {
-  color: #728e00;
+.highlight .code .formula {
+  background: #073642;
 }
-.hljs-meta {
-  color: #434f54;
-}
-.hljs-emphasis {
+.highlight .code .emphasis {
   font-style: italic;
 }
-.hljs-strong {
+.highlight .code .strong {
   font-weight: bold;
-}
-.hljs-function {
-  color: #728e00;
-}
-.hljs-number {
-  color: #8a7b52;
 }
 pre {
   font-family: "Menlo", "Meslo LG", monospace;
