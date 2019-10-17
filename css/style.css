@@ -1320,65 +1320,73 @@ article .content .caption {
   padding-bottom: 0.5em;
   color: #383838;
 }
-.highlight {
-  color: #dccf8f;
-  background: url("./pojoaque.jpg") repeat scroll left top #181914;
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #fff;
 }
-.highlight .code .comment,
-.highlight .code .quote {
-  color: #586e75;
-  font-style: italic;
+.hljs,
+.hljs-subst {
+  color: #434f54;
 }
-.highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .literal,
-.highlight .code .addition {
-  color: #b64926;
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name {
+  color: #00979d;
 }
-.highlight .code .number,
-.highlight .code .string,
-.highlight .code .doctag,
-.highlight .code .regexp {
-  color: #468966;
+.hljs-built_in,
+.hljs-literal,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #d35400;
 }
-.highlight .code .title,
-.highlight .code .section,
-.highlight .code .built_in,
-.highlight .code .name {
-  color: #ffb03b;
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #00979d;
 }
-.highlight .code .variable,
-.highlight .code .template-variable,
-.highlight .code .class .title,
-.highlight .code .type,
-.highlight .code .tag {
-  color: #b58900;
+.hljs-type,
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #005c5f;
 }
-.highlight .code .attribute {
-  color: #b89859;
-}
-.highlight .code .symbol,
-.highlight .code .bullet,
-.highlight .code .link,
-.highlight .code .subst,
-.highlight .code .meta {
-  color: #cb4b16;
-}
-.highlight .code .deletion {
-  color: #dc322f;
-}
-.highlight .code .selector-id,
-.highlight .code .selector-class {
-  color: #d3a60c;
-}
-.highlight .code .formula {
-  background: #073642;
-}
-.highlight .code .emphasis {
-  font-style: italic;
-}
-.highlight .code .strong {
+.hljs-title,
+.hljs-section {
+  color: #800;
   font-weight: bold;
+}
+.hljs-comment {
+  color: rgba(149,165,166,0.8);
+}
+.hljs-meta-keyword {
+  color: #728e00;
+}
+.hljs-meta {
+  color: #434f54;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-function {
+  color: #728e00;
+}
+.hljs-number {
+  color: #8a7b52;
 }
 pre {
   font-family: "Menlo", "Meslo LG", monospace;
